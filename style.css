@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.navbar {
+ display: flex;
+    justify-content: center;
+    gap: 20px;
+   color: #f2f2f2;
+   background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.navbar a{
+    color: white;
+}
+.navbar-item {
+    background-color: #d44e4e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.navbar-item:hover {
+    background-color: #b03939;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.2);
+    color: black;
+}
+.ng{
+    text-align: center;
+}
+.blue{
+    color: blue;
+}
+p{
+    font-size: 22px;
+}
+.flex{
+    display: flex;
+}
+
+.muellim{
+    display: flex;
+    gap: 40px ;
+    margin-left: 50px;
+}
+.gold{
+    color:rgb(218,165,32);
+}
+.gold:hover{
+    transition: 1s;
+    transform: scale(1.09);
+    cursor: pointer;
+}
+.muellim img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
